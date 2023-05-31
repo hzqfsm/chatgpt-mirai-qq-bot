@@ -9,7 +9,7 @@ import toml
 
 
 class Onebot(BaseModel):
-    manager_qq: int = 0
+    manager_qq: int = 513634880
     """机器人管理员的 QQ 号"""
     reverse_ws_host: str = "0.0.0.0"
     """go-cqhttp 的 反向 ws 主机号"""
